@@ -28,5 +28,5 @@ jobs:
           ldflags: "-s -w"
           md5sum: false
           sha256sum: true
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          
           
