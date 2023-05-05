@@ -13,8 +13,6 @@ jobs:
       matrix:
         goos: [ darwin, windows ]
         goarch: [ amd64, arm64 ]
-        gooslinux: [ linux, android ]
-        goarchlinux: [ amd64, arm64, arm, i386 ]
     steps:
       - uses: actions/checkout@v3
       - uses: wangyoucao577/go-release-action@v1.25
