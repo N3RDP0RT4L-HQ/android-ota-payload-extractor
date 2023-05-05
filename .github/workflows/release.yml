@@ -28,7 +28,6 @@ jobs:
           ldflags: "-s -w"
           md5sum: false
           sha256sum: true
-        with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           goos: ${{ matrix.goos_linux }}
           goarch: ${{ matrix.goarch_linux }}
